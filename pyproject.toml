@@ -6,5 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "httpx>=0.28.1",
+    "llama-index>=0.12.47",
+    "llama-index-llms-ollama>=0.6.2",
+    "llama-index-tools-mcp>=0.2.6",
     "mcp[cli]>=1.10.1",
 ]
